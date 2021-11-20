@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+body {
+    background-color: rgb(197, 216, 197);
+}
+h1 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Crimson Text', serif;
+    font-size: 2em;
+    color:darkblue;
+
+}
+
+input[type = radio] {
+    border: 0px;
+    width: 15px;
+    height: 1.5em;
+    cursor: pointer;
+    
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+}
+
+.quizContainer {
+    background-color: darkseagreen;
+    border: 8px;
+    width: 75%;
+    margin: auto;
+    margin-top: 170px;
+    padding-top: 5px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.quizContainer:hover {
+    box-shadow: 0 5px 5px midnightblue;
+}
+
+
+.nextButton {
+    border-radius: 6px;
+    width: 150px;
+    height: 35px;
+    text-align:center;
+    background-color: rgb(65, 110, 86);
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+
+.nextButton:hover {
+    background-color: rgb(136, 219, 147);
+    box-shadow: 0 5px 5px midnightblue;
+}
+
+.questions {
+    font-family: 'Crimson Text', serif;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    text-align: center;
+    color:rgb(3, 70, 3);
+}
+
+.questions:hover {
+    box-shadow: 0 5px 5px midnightblue;
+}
+
+.quizMessage {
+    background-color:rgb(241, 234, 165);
+    border-radius: 6px;
+    width: 20%;
+    
+    margin: auto;
+    text-align: center;
+    padding: 4px;
+    font-family: 'Crimson Text', serif;
+    color:rgb(19, 17, 17);
+    box-sizing:content-box;
+}
+
+.choiceList {
+    font-family: 'Crimson Text', serif;
+    color:blue;    
+}
+
+.result {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(13, 43, 92);
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+    color:honeydew;
+}
